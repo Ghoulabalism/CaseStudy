@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>choice-hotels-booking</title>
   </head>
+
+  <script type="text/javascript">
+    (function(w, d, x, id){
+      s=d.createElement('script');
+      s.src='https://sabikdemo.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js';
+      s.async=1;
+      s.id=id;
+      d.getElementsByTagName('head')[0].appendChild(s);
+      w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+    })(window, document, 'amazon_connect', '63d378a3-906f-47ae-be3d-286a30151e76');
+    amazon_connect('styles', { iconType: 'CHAT_VOICE', openChat: { color: '#ffffff', backgroundColor: '#123456' }, closeChat: { color: '#ffffff', backgroundColor: '#123456'} });
+    amazon_connect('snippetId', 'QVFJREFIZ1NqZWV5MTExbXUwZXRHZUlvQ2NPT3RQZ1k4bTl0VDhTaTZYcy9YcFVCVHdFZ04vdlBaUWRRUmtUSnZaTmV5bHBsQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNSlBoSGNQejdOc2h3WlNyRUFnRVFnQ3RCQVNybzQ1cElkSU85T29Nd21EWUV5L1lQd1hzdG5XK3dBNXdQN1E3Rm9HYnE0NUlFV3h3dVk3eXc6OlNma2doaG0yT1pJUStHNHlkSVZ3c3ZzdEhENGFPSUY2Q1hUTDYxcmxyU09HN3h4dmI1L2s4V1plZWQwc21FQmkwT2JGVWVBZ1hKQXg3MVpvWkFmOVBpUnFBb2FkRlM1eGY3V0c0cEYzd2hZemlWN202ZUgyaDNHVGkyd0w2NWV1VWZ1MjNQaGFwUk1pbHNBQ2kxWlAyUkNZNThRaWlwWT0=');
+    amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+  </script>
+
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
