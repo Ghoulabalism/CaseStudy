@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "https://YOUR_API_GATEWAY_URL/book"; // Replace with your API Gateway endpoint
+const API_URL = "https://qswvb36273.execute-api.us-west-2.amazonaws.com/book"; // Replace with your API Gateway endpoint
 
 function generateConfirmationNumber() {
   const date = new Date();
